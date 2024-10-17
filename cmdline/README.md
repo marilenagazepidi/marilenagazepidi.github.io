@@ -1,1 +1,2 @@
 byte0 : Αρχικα cd για να μπω σε καθε folder, ls για να δω τα περιεχομενα του και cat στο file treasure για να δω τον κωδικο
+byte1 : Χρησιμοποιησα την εντολη man supercalifragilisticexpialidocious και μας εδειξε τι κανει η εντολη 
