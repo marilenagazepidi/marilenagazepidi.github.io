@@ -9,7 +9,7 @@ int validate_input(double *input)
     int result = scanf("%lf", input);
 
     if (result == EOF)
-        return 0; // EOF reached
+        return 0; // eOF reached
     if (result == 0) 
     {
         while (getchar() != '\n'); // Consume invalid input
@@ -29,7 +29,7 @@ int main()
         if (res == 0) 
         {
             printf("0\n");
-            return 0; // Exit if EOF
+            return 0; // exit if EOF
         } 
         else if (res == 1) 
         {
@@ -42,12 +42,12 @@ int main()
         if (res == 0) 
         {
             printf("0\n");
-            return 0; // Exit if EOF
+            return 0; // exit if EOF
         } 
         else if (res == 1) 
         {
             printf("1\n");
-            return 0; // Retry on invalid input
+            return 0; // invalid input
         }
 
         // Check if input is within bounds
