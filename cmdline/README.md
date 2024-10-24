@@ -9,3 +9,4 @@ byte7 : Εκανα τα ιδια βηματα με το byte5 και το byte6 
 byte8 : Χρησιμοποιησα την εντολη pico.
 byte9 : Εκανα cat ./-  .
 byte10 : Εκανα ls στο αρχειο και μετα sort names.txt και μετρησα το 10ο ονομα.
+byte11 : Χρησιμοποιησα την εντολη cat births.txt | tr -cs '[:alpha:]' '\n' | tr 'A-Z' 'a-z' | sort | uniq -c | sort -nr | head -3  .
